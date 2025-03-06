@@ -1,0 +1,9 @@
+py_test:
+  ros__parameters:
+    bool_value: True
+    int_number: 5
+    float_number: 2.718
+    str_text: "Vardo"
+    bool_array: [True, True, False]
+    nested_param:
+      another_int: 8
