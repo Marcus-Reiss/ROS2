@@ -1,3 +1,4 @@
+export TURTLEBOT3_MODEL=waffle
 source /opt/ros/humble/setup.bash
 source /home/ROS/ros_ws/install/setup.bash
 # source /usr/share/colcon_argcomplete/hook/colcon_argcomplete.bash

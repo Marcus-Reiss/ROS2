@@ -37,6 +37,9 @@ RUN apt-get update \
     && apt-get install -y python3-colcon-common-extensions\
     && apt-get install -y python3-colcon-argcomplete\
     && apt-get install -y python3-tk \
+    && apt-get install -y ros-humble-navigation2\
+    && apt-get install -y ros-humble-nav2-bringup\
+    && apt-get install -y ros-humble-turtlebot3*\
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip install numpy 
