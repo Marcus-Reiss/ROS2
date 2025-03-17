@@ -40,6 +40,7 @@ RUN apt-get update \
     && apt-get install -y ros-humble-navigation2\
     && apt-get install -y ros-humble-nav2-bringup\
     && apt-get install -y ros-humble-turtlebot3*\
+    && apt-get install -y ros-humble-rmw-cyclonedds-cpp\
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip install numpy 

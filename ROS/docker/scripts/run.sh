@@ -48,6 +48,8 @@ if [[ $PWD = *ROS ]]; then
             -e DISPLAY=$DISPLAY \
             --workdir /home/ROS/ros_ws \
             ros_ws:humble
+
+    #docker exec ros_humble bash -c "ln -sf /home/ROS/ros_ws/ros_share_host /opt/ros/humble/share"
                       
 elif [[ ! $PWD = *ROS/docker ]]; then
 # Checks if the current directory is not 'ROS/docker'.
