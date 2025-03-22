@@ -1,6 +1,6 @@
 #!usr/bin/env python3
 import rclpy
-from rcpy.node import Node
+from rclpy.node import Node
 import torch
 from sensor_msgs.msg import JointState
 from geometry_msgs.msg import Twist
